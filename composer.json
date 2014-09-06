@@ -1,0 +1,17 @@
+{
+    "name": "andig/mozilla-mail-config",
+    "type": "project",
+    "homepage": "https://github.com/andig/mozilla-mail-config",
+    "license": "GPL-3.0",
+    "support": {
+        "email": "cpuidle@gmx.de"
+    },
+    "autoload": {
+        "psr-4": {
+            "MozillaMailConfig\\": "lib/"
+        }
+    },
+    "require": {
+        "doctrine/collections": "~1.2"
+    }
+}
